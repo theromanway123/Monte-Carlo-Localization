@@ -233,7 +233,7 @@ class Particle(object):
 	
 	
 	#self.map_T_particle.translation = self.map_T_particle.__mul__(X)
-	self.map_T_particle.translation += RotateBy(X,angle)
+	self.map_T_particle.translation = RotateBy(X,angle)
 	self.map_T_particle.rotation = angle 
 
 	
